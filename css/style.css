@@ -112,3 +112,70 @@ body{
     width: 100px;
     margin-right: 15px;
   }
+
+img {
+    clear: left;
+
+  }
+
+  /*--------------------- Owerflow --------------------*/
+  .owerflow {
+    display: flex;
+    align-items: flex-start;
+  }
+  .owerbl1 {
+      width: 250px;
+      height: 150px;
+      margin: 15px;
+      border: 5px solid #000;
+      background-color: rgb(32, 209, 16);
+  }
+  .owerbl2 {
+    overflow: hidden;
+  }
+  .owerbl3 {
+    overflow: scroll;
+  }
+  .owerbl4 {
+    height: auto;
+  }
+
+  /*--------------------- Position --------------------*/
+  .rekl {
+    background-color: blue;
+    color: yellow;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 200px;
+    right: 200px;
+    bottom: 200px;
+    left: 200px;
+  }
+
+  .rekl1 {
+    background-color: red;
+    color: black;
+    font-size: 50px;
+    position: absolute;
+  }
+
+  .rekl2 {
+    background-color: orange;
+    color: black;
+    font-size: 50px;
+    top: 100px;
+    position: relative;
+  }
+
+  .rekl3 {
+    background-color: blue;
+    color: yellow;
+    font-size: 50px;
+    top: 90%;
+
+
+    position: sticky;
+  }
